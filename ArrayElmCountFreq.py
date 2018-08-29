@@ -5,14 +5,14 @@ class CountFreqCls:
 		self.input = [3,4,4,5,7,4,4]
 
 	def start(self):
-		# print('input : ',self.input)
-		# print('count using naive starts')
-		# self.countFreqNaive()
-		# print('count using naive ends')
-		# print('input : ',self.input)
-		# print('count using normal starts')
-		# self.countFreq()
-		# print('count using normal ends')
+		print('input : ',self.input)
+		print('count using naive starts')
+		self.countFreqNaive()
+		print('count using naive ends')
+		print('input : ',self.input)
+		print('count using normal starts')
+		self.countFreq()
+		print('count using normal ends')
 		print('input : ',self.input)
 		print('count using Efficient starts')
 		self.countFreqEfficient()
