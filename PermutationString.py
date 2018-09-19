@@ -13,6 +13,7 @@ class PermutationString:
 		print('Output Using Library : ', self.caclPermutationLib())
 
 	def caclPermutation(self,inputStr):
+		print("\n\n",'inputStr',inputStr)
 		permutations = []
 		n=len(inputStr)
 		if(n == 0):
@@ -20,7 +21,9 @@ class PermutationString:
 			return permutations
 		first = inputStr[0]
 		remaining = inputStr[1:]
+		print("\n\n",'remaining',remaining)
 		words = self.caclPermutation(remaining)
+		print("\n\n",'words',words)
 		for word in words:
 			print("\n\n",'word',word)
 			wl = len(word)
